@@ -1,0 +1,10 @@
+Streams nos permitem manipular coleções de elementos (como Lists ou Sets) de forma mais sofisticada e eficiente do que
+os métodos tradicionais. Eles são especialmente úteis quando precisamos realizar operações em massa nesses elementos,
+como filtrar, transformar ou agregar.
+
+A função”peek” é uma operação intermediária de uma stream. Uma operação intermediária é aquela que processa os dados da
+stream, mas não a finaliza, ou seja, ela permite que mais operações sejam feitas depois dela. A função peek é usada
+para "espiar" os elementos da stream sem alterá-los, o que pode ser muito útil para depuração. Essa função vai receber
+cada elemento da stream e realizar alguma operação de efeito colateral (como imprimir o elemento), mas vai devolver o
+mesmo elemento sem alterar nada.
+
